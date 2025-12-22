@@ -9,3 +9,36 @@ console.log(_miNumero2);
 
 let miNumero3 = 30;
 console.log(miNumero3);
+
+// Nota: JavaScript es sencible a mayusculas y minusculas
+// miNumero es diferente a minumero
+
+// Ejemplos de tipos de datos en JavaScript
+
+// Datos numéricos
+let miEntero = 10;
+console.log(miEntero);
+
+let miFlotante = 7.5;
+console.log(miFlotante);
+
+// Datos cadena
+let miCadena = "Hola";
+let miCadena2 = 'saludos';
+let miCadena3 = `cordiales`;
+console.log(miCadena + " " + miCadena2 + " " + miCadena3);
+
+// Datos Booleanos
+let miBoolean = true;
+console.log(miBoolean);
+
+let miBoolean2 = false;
+console.log(miBoolean2);
+
+// Dato null
+let miNull = null;
+console.log(miNull);
+
+// Dato undefined
+let miUndefined = undefined;
+console.log(miUndefined);
