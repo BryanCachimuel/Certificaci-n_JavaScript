@@ -42,3 +42,19 @@ console.log(miNull);
 // Dato undefined
 let miUndefined = undefined;
 console.log(miUndefined);
+
+// Conociendo el tipo de dato por consola
+let numerosRandon = 34;
+console.log(typeof numerosRandon);
+
+let miSaludo = "Hola como vamos";
+console.log(typeof miSaludo);
+
+let miBoolean3 = !false;
+console.log(typeof miBoolean3);
+
+let miNulo = null;
+console.log(typeof miNulo);
+
+let miIndefinido = undefined;
+console.log(typeof miIndefinido);
