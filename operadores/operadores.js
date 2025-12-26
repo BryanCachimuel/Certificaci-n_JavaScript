@@ -16,3 +16,11 @@ console.log(c);
 // división
 d = b / 2.5;
 console.log(b);
+
+// Modulo (residuo de la división)
+f =  9 % 2;
+console.log(f);
+
+// Potencia (ES2016 - ECMASsript)
+e = 2 ** 3; // 2 * 2 * 2 = 8
+console.log(e);
