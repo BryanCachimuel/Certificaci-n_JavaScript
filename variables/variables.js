@@ -58,3 +58,16 @@ console.log(typeof miNulo);
 
 let miIndefinido = undefined;
 console.log(typeof miIndefinido);
+
+// Hoisting (se puede usar una variable y despues declararla esto solo se aplica con var y no con let)
+var x; //1. Declarar la variable
+x = 10; // 2. Inicializamos la variable
+
+console.log(x);
+
+z = 14;
+y = 5;
+
+console.log(z);
+
+var z;
