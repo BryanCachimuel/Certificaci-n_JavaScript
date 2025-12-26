@@ -71,3 +71,10 @@ y = 5;
 console.log(z);
 
 var z;
+
+// Constantes
+const MI_CONSTANTE = 25;
+//MI_CONSTANTE = 40; no se puede cambiar el valor de una constante
+console.log(MI_CONSTANTE);
+
+console.log(Math.PI);
