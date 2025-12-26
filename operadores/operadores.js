@@ -9,3 +9,10 @@ console.log(a);
 b = 6 - 2;
 console.log(b);
 
+// multiplicación
+c = a * 4;
+console.log(c); 
+
+// división
+d = b / 2.5;
+console.log(b);
