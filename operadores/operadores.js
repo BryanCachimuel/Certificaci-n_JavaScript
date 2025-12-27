@@ -24,3 +24,16 @@ console.log(f);
 // Potencia (ES2016 - ECMASsript)
 e = 2 ** 3; // 2 * 2 * 2 = 8
 console.log(e);
+
+
+/* Operadores de incremento y decremento */
+let g, h, i, j;
+g = 0;
+
+// Pre-incremento
+++g;
+console.log(g);
+
+// post-incremento
+g++;
+console.log(g);
