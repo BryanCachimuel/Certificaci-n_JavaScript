@@ -27,7 +27,7 @@ console.log(e);
 
 
 /* Operadores de incremento y decremento */
-let g, h, i, j;
+let g, h, i;
 g = 0;
 
 // Pre-incremento
@@ -85,3 +85,11 @@ console.log(miNumero);
 miNumero = 8;
 miNumero **= 4;
 console.log(miNumero);
+
+/* Operadores Relacionales (Comparación) */
+let  m = 5;
+let  l = '5';
+
+// operador de igualdad == 
+// solo compara valores y hace una conversión si es necesario
+console.log("m == l -> ", m == l);
