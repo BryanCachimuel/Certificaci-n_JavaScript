@@ -45,3 +45,11 @@ console.log(g);
 // post-decremento
 g--;
 console.log(g);
+
+// Ejemplos
+g = 5;
+h = 2;
+i = ++g * h--;
+console.log(i);
+console.log(g);
+console.log(h);
