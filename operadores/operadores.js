@@ -72,3 +72,16 @@ console.log(miNumero);
 // Operador *=
 miNumero *= 2;
 console.log(miNumero);
+
+// Operador /=
+miNumero /= 4;
+console.log(miNumero);
+
+// Operador %=
+miNumero %= 2;
+console.log(miNumero);
+
+// Operador **=
+miNumero = 8;
+miNumero **= 4;
+console.log(miNumero);
