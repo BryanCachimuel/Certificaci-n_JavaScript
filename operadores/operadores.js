@@ -37,3 +37,11 @@ console.log(g);
 // post-incremento
 g++;
 console.log(g);
+
+// Pre-decremento
+--g;
+console.log(g);
+
+// post-decremento
+g--;
+console.log(g);
