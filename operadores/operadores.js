@@ -53,3 +53,10 @@ i = ++g * h--;
 console.log(i);
 console.log(g);
 console.log(h);
+
+/* Operadores de Asignación */
+let miNumero = 10;
+console.log(miNumero);
+
+miNumero = 15;
+console.log(miNumero);
