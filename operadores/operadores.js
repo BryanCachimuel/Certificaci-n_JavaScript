@@ -93,3 +93,7 @@ let  l = '5';
 // operador de igualdad == 
 // solo compara valores y hace una conversión si es necesario
 console.log("m == l -> ", m == l);
+
+// operador de igualdad estricta o exacto ===
+// se compara el valor y el tipo de dato 
+console.log("m === l -> ", m === l);
