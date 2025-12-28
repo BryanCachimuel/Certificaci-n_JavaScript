@@ -5,3 +5,7 @@ let b = false;
 // Operador && (and o Y)
 // Regresa verdadero si ambos operandos son verdaderos
 console.log(`${a} && ${b} -> ${a && b}`);
+
+// Operador Lógico || (or o O)
+//  Regresa verdadero si cualquiera de los valores es verdadero
+console.log(`${a} || ${b} -> ${a || b}`);
