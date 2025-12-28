@@ -114,3 +114,9 @@ console.log(`${m} < ${l} -> ${m < l}`);
 
 // operador menor o igual que 
 console.log(`${m} <= ${l} -> ${m <= l}`);
+
+// Operador mayor que
+console.log(`${m} > ${l} -> ${m > l}`);
+
+// Operador mayor o igual que
+console.log(`${m} >= ${l} -> ${m >= l}`);
