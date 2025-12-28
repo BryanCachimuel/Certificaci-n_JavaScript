@@ -14,3 +14,15 @@ console.log(`${a} || ${b} -> ${a || b}`);
 // Invierte el valor original. true -> false y false -> true
 console.log(`${a} -> ${!a}`);
 console.log(`${b} -> ${!b}`);
+
+// Ejercicio valor dentro de rango
+
+// definimos variables
+let minimo = 0, maximo = 5;
+
+// valor para saber si está dentro de rango
+let dato = 3;
+
+// revisamos si está dentro del rango
+let dentroRango = dato >= minimo && dato <= maximo;
+console.log('Valor dentro del rango: ', dentroRango);
