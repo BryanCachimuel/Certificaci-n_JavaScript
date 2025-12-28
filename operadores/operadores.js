@@ -97,3 +97,14 @@ console.log("m == l -> ", m == l);
 // operador de igualdad estricta o exacto ===
 // se compara el valor y el tipo de dato 
 console.log("m === l -> ", m === l);
+
+// aplicando interpolación
+console.log(`${m} === ${l} -> ${m === l}`);
+
+// Operador distintos
+// Compara valor y convierte el tipo de dato si es necesario
+console.log(`${m} != ${l} -> ${m != l}`);
+
+// operador distinto exacto
+// compara el valor y tipo de dato
+console.log(`${m} !== ${l} -> ${m !== l}`);
