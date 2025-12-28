@@ -108,3 +108,9 @@ console.log(`${m} != ${l} -> ${m != l}`);
 // operador distinto exacto
 // compara el valor y tipo de dato
 console.log(`${m} !== ${l} -> ${m !== l}`);
+
+// operador menor que
+console.log(`${m} < ${l} -> ${m < l}`);
+
+// operador menor o igual que 
+console.log(`${m} <= ${l} -> ${m <= l}`);
