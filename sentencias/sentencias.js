@@ -11,3 +11,9 @@ else if(miNumero < 0) {
 else {
     console.log(`${miNumero}: es cero`);
 }
+
+/* Operador ternario */
+let analisisNumero = -15;
+
+let respuesta = analisisNumero > 0  ? 'es positivo' : 'es negativo o cero';
+console.log(respuesta);
