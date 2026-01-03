@@ -15,3 +15,10 @@ do{
     console.log(contar);
     contar++;
 }while(contar <= repetir)
+
+
+/* Ciclo for */
+let repetiremos = 7;
+for(let i = 0; i <= repetiremos; i++) {
+    console.log(i);
+} 
