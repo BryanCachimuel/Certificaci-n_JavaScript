@@ -7,3 +7,11 @@ while (contador <= repeticiones) {
     console.log(contador);
     contador++;
 }
+
+/* Ciclo do while */
+let contar = 0, repetir = 6;
+
+do{ 
+    console.log(contar);
+    contar++;
+}while(contar <= repetir)
