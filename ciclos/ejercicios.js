@@ -7,3 +7,15 @@ for(let i = 1; i <= maximo; i += 3){
 for(let j = 1; j >= minimo; j -= 3) {
     console.log(j)
 }
+
+/* Realizar la suma de los primeros 5 números  utilizando el ciclo for */
+let max = 5, acumuladorSuma = 0;
+for(let k = 1; k <= max; k++) {
+    // Imprimimos lo que va a sumar
+    console.log(`${acumuladorSuma} + ${k}`);
+    // Realizamos la suma parcial
+    acumuladorSuma += k;
+    console.log(acumuladorSuma);
+}
+
+console.log(acumuladorSuma);
