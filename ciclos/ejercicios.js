@@ -33,3 +33,15 @@ while(numero <= maxi) {
 }
 
 console.log(acmSuma);
+
+/* Realizar la suma de los primeros 5 números  utilizando el ciclo do while */
+do {
+    // Imprimimos lo que va a sumar
+    console.log(`${acmSuma} + ${numero}`);
+    // Realizamos la suma parcial
+    acmSuma += numero;
+    console.log(acmSuma);
+    numero++;
+}while(numero <= maxi);
+
+console.log(acmSuma);
