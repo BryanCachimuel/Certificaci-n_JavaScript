@@ -19,3 +19,17 @@ for(let k = 1; k <= max; k++) {
 }
 
 console.log(acumuladorSuma);
+
+/* Realizar la suma de los primeros 5 números  utilizando el ciclo while */
+let numero = 1, maxi = 5, acmSuma = 0;
+
+while(numero <= maxi) {
+    // Imprimimos lo que va a sumar
+    console.log(`${acmSuma} + ${numero}`);
+    // Realizamos la suma parcial
+    acmSuma += numero;
+    console.log(acmSuma);
+    numero++;
+}
+
+console.log(acmSuma);
