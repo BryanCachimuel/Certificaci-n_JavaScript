@@ -17,3 +17,10 @@ matriz[1][2] = 600;
 // leer los valores
 console.log(`Elemento [0][1] = ${matriz[0][1]}`);
 console.log(`Elemento [1][2] = ${matriz[1][2]}`);
+
+// sintaxis simplificada
+let matrizSimplificada = [[150,250,350],[450,550,650]];
+
+// leer los valores
+console.log(`Elemento [0][1] = ${matrizSimplificada[0][1]}`);
+console.log(`Elemento [1][2] = ${matrizSimplificada[1][2]}`);
