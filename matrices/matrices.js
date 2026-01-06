@@ -35,10 +35,9 @@ console.log(matriz[1].length);
 // iterar los valores de la matriz
 
 // renglones
-for() {
-
+for(let ren = 0; ren < matriz.length; ren++) {
     // columnas
-    for() {
-
+    for(let col = 0; col < matriz[ren].length; col++) {
+        console.log(`Elemento[${ren}][${col}] = ${matriz[ren][col]}`);
     }
 }
