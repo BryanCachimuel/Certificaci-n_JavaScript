@@ -24,3 +24,21 @@ let matrizSimplificada = [[150,250,350],[450,550,650]];
 // leer los valores
 console.log(`Elemento [0][1] = ${matrizSimplificada[0][1]}`);
 console.log(`Elemento [1][2] = ${matrizSimplificada[1][2]}`);
+
+// nro de renglones que tiene la matriz
+console.log(matriz.length);
+
+// nro de columnas (depende del renglon seleccionado)
+console.log(matriz[0].length);
+console.log(matriz[1].length);
+
+// iterar los valores de la matriz
+
+// renglones
+for() {
+
+    // columnas
+    for() {
+
+    }
+}
