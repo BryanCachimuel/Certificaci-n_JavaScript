@@ -21,3 +21,10 @@ console.log(`Elemento 1 - [0]: ${arregloNuevo[0]}`);
 console.log(`Elemento 2 - [1]: ${arregloNuevo[1]}`);
 console.log(`Elemento 6 - [4]: ${arregloNuevo[5]}`);
 console.log(`Elemento 7 - [1]: ${arregloNuevo[6]}`);
+
+// iterar arreglos
+let arregloFrutas = ['manzana','pera','platano','frutillas'];
+
+for(let i = 0; i < arregloFrutas.length; i++) {
+    console.log(arregloFrutas[i]);
+}
