@@ -20,3 +20,17 @@ let sumarResultado = sumar(argA,argB);
 
 // Imprimir el resultado de la suma
 console.log(`Resultado de la suma: ${sumarResultado}`);
+
+/* Paso de cadenas en las funciones
+cadenas inmutables en JS (no se puede modificar su valor)
+*/
+function cambiarValor(parametro) {
+    parametro = 'Adios';
+}
+
+// llamamos a la función
+let argumento = 'Hola';
+console.log(`Antes de la función: ${argumento}`);
+cambiarValor(argumento);
+console.log(`Después de la función: ${argumento}`);
+
