@@ -26,3 +26,12 @@ console.log(cadena3);
 
 let cadena4 = cadena2.substring(6, 21);
 console.log(cadena4);
+
+// Concatenación de cadenas
+let cadena5 = "Te informamos";
+let cadena6 = "que tu saldo a expirado";
+
+console.log(cadena5 + " " + cadena6);
+
+// concatenando con string interpolation
+console.log(`${cadena5} ${cadena6}`);
