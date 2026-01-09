@@ -16,3 +16,13 @@ console.log(cadena1);
 for(let i = 0; i < cadena1.length; i++) {
     console.log(cadena1[i]);
 }
+
+// Subcadenas 
+let cadena2 = "Hola, ten buena tarde";
+
+// substring(indice_inicio, indice_final)
+let cadena3 = cadena2.substring(0,4);
+console.log(cadena3);
+
+let cadena4 = cadena2.substring(6, 21);
+console.log(cadena4);
