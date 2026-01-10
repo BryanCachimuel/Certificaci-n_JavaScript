@@ -35,3 +35,10 @@ console.log(cadena5 + " " + cadena6);
 
 // concatenando con string interpolation
 console.log(`${cadena5} ${cadena6}`);
+
+// Convertir de cadena a número
+let num1 = '19', num2 = '20';
+let num3 = '18', num4 = '17';
+
+let resultado = parseInt(num1) + parseInt(num2) + parseInt(num3) + parseInt(num4);
+console.log(resultado);
