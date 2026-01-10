@@ -62,3 +62,8 @@ let valor = 8.5, redondeo, truncado;
 // .5 o superior, redondea al valor entero o superior más cercano
 redondeo = Math.round(valor);
 console.log(redondeo);
+
+// Truncado
+// Math,trunc() elimina la parte flotante (decimal)
+truncado = Math.trunc(valor);
+console.log(truncado);
