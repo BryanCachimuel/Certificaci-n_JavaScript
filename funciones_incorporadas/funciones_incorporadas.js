@@ -43,6 +43,12 @@ let num3 = '18', num4 = '17';
 let resultado = parseInt(num1) + parseInt(num2) + parseInt(num3) + parseInt(num4);
 console.log(resultado);
 
+// Convertir número a cadena
+let a = 30, b = 99;
+
+let concatena = a.toString() + b.toString();
+console.log(concatena);
+
 // valor absoluto
 let numero = -10;
 let valorAbsoluto = Math.abs(numero);
