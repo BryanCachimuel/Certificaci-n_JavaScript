@@ -53,3 +53,12 @@ console.log(concatena);
 let numero = -10;
 let valorAbsoluto = Math.abs(numero);
 console.log(valorAbsoluto);
+
+// Redondeo y truncado 
+let valor = 8.5, redondeo, truncado;
+
+// redondeo
+// Math.round() redondea al valor entero más cercano
+// .5 o superior, redondea al valor entero o superior más cercano
+redondeo = Math.round(valor);
+console.log(redondeo);
