@@ -42,3 +42,8 @@ let num3 = '18', num4 = '17';
 
 let resultado = parseInt(num1) + parseInt(num2) + parseInt(num3) + parseInt(num4);
 console.log(resultado);
+
+// valor absoluto
+let numero = -10;
+let valorAbsoluto = Math.abs(numero);
+console.log(valorAbsoluto);
