@@ -22,3 +22,6 @@ persona2.apellido = 'Rodríguez';
 persona2.telefono = '0954834032';
 
 console.log(persona2.telefono);
+
+// Acceder a las propiedades de los objetos
+console.log(persona['nombre']);
