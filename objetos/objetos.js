@@ -25,3 +25,17 @@ console.log(persona2.telefono);
 
 // Acceder a las propiedades de los objetos
 console.log(persona['nombre']);
+
+// for in
+for(nombrePropiedad in persona){
+    console.log(persona[nombrePropiedad]);
+}
+
+// Agregar propiedades al objeto
+persona.ciudad = 'Ibarra';
+
+console.log(persona);
+
+// Eliminar propiedades del objeto
+delete persona.ciudad;
+console.log(persona);
