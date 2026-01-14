@@ -52,3 +52,7 @@ for(nombrePropiedad in persona) {
 // impresión mediante object.values
 let personaArray = Object.values(persona);
 console.log(personaArray);
+
+// impresión mediante JSON.stringify
+let personaString = JSON.stringify(persona);
+console.log(personaString);
