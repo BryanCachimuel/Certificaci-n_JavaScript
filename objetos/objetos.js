@@ -48,3 +48,7 @@ console.log(persona.nombre + ' ' + persona.apellido);
 for(nombrePropiedad in persona) {
     console.log(persona[nombrePropiedad]);
 }
+
+// impresión mediante object.values
+let personaArray = Object.values(persona);
+console.log(personaArray);
