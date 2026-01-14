@@ -39,3 +39,7 @@ console.log(persona);
 // Eliminar propiedades del objeto
 delete persona.ciudad;
 console.log(persona);
+
+// Imprimir los valores de un objeto
+// Concatenar cada valor de cada propiedad
+console.log(persona.nombre + ' ' + persona.apellido);
