@@ -43,3 +43,8 @@ console.log(persona);
 // Imprimir los valores de un objeto
 // Concatenar cada valor de cada propiedad
 console.log(persona.nombre + ' ' + persona.apellido);
+
+// impresión mediante for in
+for(nombrePropiedad in persona) {
+    console.log(persona[nombrePropiedad]);
+}
