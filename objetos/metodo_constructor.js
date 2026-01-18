@@ -4,6 +4,9 @@ function Persona(nombre, apellido, email) {
     this.nombre = nombre;
     this.apellido = apellido;
     this.email = email;
+    this.nombrecompleto = function() {
+        return this.nombre + " " + this.apellido
+    }
 }
 
 let padre = new Persona('Nelson','Cacoango','nccc@gmail.com');
@@ -13,4 +16,4 @@ let madre = new Persona('Camila','Fuerez','cftc@gmail.com');
 console.log(madre);
 
 padre.nombre = 'Camilo';
-console.log(padre);
+console.log(padre.nombrecompleto());
