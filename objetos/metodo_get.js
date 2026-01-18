@@ -4,6 +4,10 @@ let persona = {
     apellido: 'Cacoango',
     email: 'nelsonccc@gmail.com',
     edad: 33,
+    idioma: 'es',
+    get lang() {
+        return this.idioma.toUpperCase();
+    },
 
     get nombreCompleto() {
         return this.nombre + " " + this.apellido
@@ -11,4 +15,5 @@ let persona = {
 }
 
 console.log(persona.nombreCompleto)
+console.log(persona.lang);
 
