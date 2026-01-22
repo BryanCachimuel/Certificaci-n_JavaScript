@@ -16,3 +16,9 @@ let persona2 = {
 console.log( persona1.nombreCompleto());
 
 console.log( persona1.nombreCompleto.call(persona2));
+
+//Uso de call para usar 
+//el metodo persona1.nombreCompleto con los datos del persona2
+console.log( persona1.nombreCompleto('Lic.', '44332288'));
+
+console.log( persona1.nombreCompleto.call(persona2, 'Ing', '5544332211'));
